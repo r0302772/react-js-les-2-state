@@ -8,6 +8,7 @@ import ExerciseThree from "./components/exerciseThree/ExerciseThree.jsx";
 import ExerciseFour from "./components/exerciseFour/ExerciseFour.jsx";
 import ExerciseFive from "./components/exerciseFive/ExerciseFive.jsx";
 import ExerciseSix from "./components/exerciseSix/exerciseSix.jsx";
+import ExerciseSeven from "./components/exerciseSeven/exerciseSeven.jsx";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <StrictMode>
@@ -28,6 +29,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         </Exercise>
         <Exercise title={'Exercise 6: Calculator'}>
             <ExerciseSix/>
+        </Exercise>
+        <Exercise title={'Exercise 7: BMI Calulator'}>
+            <ExerciseSeven/>
         </Exercise>
     </StrictMode>
 )
