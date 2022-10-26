@@ -7,6 +7,7 @@ import ExerciseTwo from "./components/exerciseTwo/ExerciseTwo.jsx";
 import ExerciseThree from "./components/exerciseThree/ExerciseThree.jsx";
 import ExerciseFour from "./components/exerciseFour/ExerciseFour.jsx";
 import ExerciseFive from "./components/exerciseFive/ExerciseFive.jsx";
+import ExerciseSix from "./components/exerciseSix/exerciseSix.jsx";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <StrictMode>
@@ -24,6 +25,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         </Exercise>
         <Exercise title={'Exercise 5: Comment Card'}>
             <ExerciseFive/>
+        </Exercise>
+        <Exercise title={'Exercise 6: Calculator'}>
+            <ExerciseSix/>
         </Exercise>
     </StrictMode>
 )
