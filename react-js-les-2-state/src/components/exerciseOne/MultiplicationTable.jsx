@@ -5,7 +5,7 @@ const MultiplicationTable = ({table}) => {
 
     const output = []
     for (let i = 1; i < 11; i++) {
-        output.push(<Row factor1={table} factor2={i}/>)
+        output.push(<Row key={i * table} factor1={table} factor2={i}/>)
     }
 
     return (

@@ -5,9 +5,9 @@ const NumberGrid = ({n}) => {
     for (let i = 0; i < n; i++) {
         const row = []
         for (let j = 0; j < n; j++) {
-            row.push(<button className={'square'}>{i * n + j + 1}</button>)
+            row.push(<button className={'square'} key={i * n + j + 1}>{i * n + j + 1}</button>)
         }
-        output.push(<div className={'grid-row'}>{row}</div>)
+        output.push(<div className={'grid-row'} key={i}>{row}</div>)
     }
 
     return (

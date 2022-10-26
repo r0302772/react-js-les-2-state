@@ -6,7 +6,7 @@ const Rater = ({rating, max}) => {
 
     const output = []
     for (let i = 1; i <= max; i++) {
-        output.push(<Star full={i <= rating}/>)
+        output.push(<Star key={i} full={i <= rating}/>)
     }
 
     return (
